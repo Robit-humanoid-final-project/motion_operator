@@ -1,0 +1,110 @@
+- name: ""
+- motor id:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+- type: motion
+- time: 500
+  delay: 200
+  repeat: 1
+  name: init
+  selected: true
+  dxl:
+    - id: 0
+      position: -2.0860175219836283
+    - id: 1
+      position: 0.18849555921538755
+    - id: 2
+      position: 0.0094247779607693934
+    - id: 3
+      position: -0.11309733552923253
+    - id: 4
+      position: -1.3823007675795114
+    - id: 5
+      position: 0
+    - id: 10
+      position: 0.084823001646924412
+    - id: 11
+      position: -0.084823001646924412
+    - id: 12
+      position: 0
+    - id: 13
+      position: 0
+    - id: 14
+      position: -1.5362388076054123
+    - id: 15
+      position: 1.5645131414877207
+    - id: 16
+      position: 1.5173892516838734
+    - id: 17
+      position: -1.5173892516838734
+    - id: 18
+      position: 0.62203534541077921
+    - id: 19
+      position: -0.60318578948924051
+    - id: 20
+      position: 0.037699111843077532
+    - id: 21
+      position: -0.047123889803846908
+    - id: 22
+      position: 0
+- time: 1000
+  delay: 200
+  repeat: 1
+  name: 2
+  selected: false
+  dxl:
+    - id: 0
+      position: -0.80424771931898575
+    - id: 1
+      position: 0
+    - id: 2
+      position: 1.7435839227423404
+    - id: 3
+      position: -0.11309733552923253
+    - id: 4
+      position: -1.5079644737231048
+    - id: 5
+      position: 0
+    - id: 10
+      position: 0.084823001646924412
+    - id: 11
+      position: -0.084823001646924412
+    - id: 12
+      position: 0
+    - id: 13
+      position: 0
+    - id: 14
+      position: -0.49951323192077768
+    - id: 15
+      position: 0.52778756580308572
+    - id: 16
+      position: 0.79168134870462747
+    - id: 17
+      position: -0.79168134870462747
+    - id: 18
+      position: 0.42411500823462239
+    - id: 19
+      position: -0.40526545231308364
+    - id: 20
+      position: 0.037699111843077532
+    - id: 21
+      position: -0.047123889803846908
+    - id: 22
+      position: 0

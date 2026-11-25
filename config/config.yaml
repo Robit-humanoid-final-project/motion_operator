@@ -1,0 +1,50 @@
+/**:
+  ros__parameters:
+    topics:
+      motion_request: "/motion_operator"
+      motion_end: "/motion_end"
+      motor_status: "/motor_status"
+      dynamixel_control: "/dynamixel_control"
+
+    tick_hz: 50.0
+    default_step_timeout_ms: 100
+
+    motions:
+
+      Irc:
+        InitAddr: ""
+        Ball_grabAddr: "motion/IRC/ball_grab.yaml"
+        HurdleAddr: "motion/IRC/hurdle.yaml"
+        ShootingAddr: "motion/IRC/shooting.yaml"
+        ManiCatchAddr: "motion/IRC/mani_catch.yaml"
+        ManiCatchRiseAddr: "motion/IRC/mani_catch_rise.yaml"
+        ManiPlaceAddr: "motion/IRC/mani_place.yaml"
+        ManiPlaceBackAddr: "motion/IRC/mani_place_back.yaml"
+
+      RCKO:
+        InitAddr: ""
+        KickRAddr: "motion/RCKO/rkick.yaml"
+        KickLAddr: "motion/RCKO/lkick.yaml"
+        FrontRiseAddr: "motion/RCKO/fr.yaml"
+        BackRiseAddr: "motion/RCKO/br.yaml"
+        RightRiseAddr: "motion/RCKO/rr.yaml"
+        LeftRiseAddr: "motion/RCKO/lr.yaml"
+
+      Technical_Challenge:
+        CornerKickReceiver:
+          CornerKickReadyAddr: "motion/Technical_Challenge/CornerKick/ready.yaml"
+          CornerKickAddr: "motion/Technical_Challenge/CornerKick/kicking.yaml"
+
+        Pourkour:
+          pourkour_motion1: "motion/Technical_Challenge/Parkour/parkour_1.yaml"
+          pourkour_motion2: "motion/Technical_Challenge/Parkour/parkour_2.yaml"
+          pourkour_motion3: "motion/Technical_Challenge/Parkour/parkour_3.yaml"
+
+        High_kick:
+          highkick_motion: "motion/Technical_Challenge/HighKick/high_kick_17.yaml"
+
+      EVENT:
+        EVENT_motion1Addr: ""
+        EVENT_motion2Addr: ""
+        EVENT_motion3Addr: ""
+        EVENT_motion4Addr: ""

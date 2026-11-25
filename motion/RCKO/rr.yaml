@@ -1,0 +1,154 @@
+- name: ""
+- motor id:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+- type: motion
+- time: 100
+  delay: 100
+  repeat: 1
+  name: init
+  selected: false
+  dxl:
+    - id: 0
+      position: 1.5739379194484877
+    - id: 1
+      position: -1.5739379194484877
+    - id: 2
+      position: -1.4985396957623323
+    - id: 3
+      position: 1.4985396957623323
+    - id: 4
+      position: -3.0724776152108131
+    - id: 5
+      position: 3.0724776152108131
+    - id: 10
+      position: 0.17592918860102838
+    - id: 11
+      position: -0.17592918860102838
+    - id: 12
+      position: -6.9388939039072284e-18
+    - id: 13
+      position: 6.9388939039072284e-18
+    - id: 14
+      position: -0.50893800988154636
+    - id: 15
+      position: 0.41783182292744253
+    - id: 16
+      position: 0.89849549892668101
+    - id: 17
+      position: -0.89849549892668101
+    - id: 18
+      position: 0.44924774946334045
+    - id: 19
+      position: -0.44924774946334045
+    - id: 20
+      position: 0.031415926535897934
+    - id: 21
+      position: -0.031415926535897934
+    - id: 22
+      position: 0
+- time: 200
+  delay: 1000
+  repeat: 1
+  name: 2
+  selected: false
+  dxl:
+    - id: 0
+      position: 2.5729643832900368
+    - id: 1
+      position: -1.5739379194484877
+    - id: 2
+      position: -1.4985396957623323
+    - id: 3
+      position: 1.4985396957623323
+    - id: 4
+      position: -3.0724776152108131
+    - id: 5
+      position: 3.0724776152108131
+    - id: 10
+      position: 0.43039819354180209
+    - id: 11
+      position: -0.17592918860102838
+    - id: 12
+      position: -6.9388939039072284e-18
+    - id: 13
+      position: 6.9388939039072284e-18
+    - id: 14
+      position: 0.10367255756846386
+    - id: 15
+      position: 0.31415926535897909
+    - id: 16
+      position: 1.0241592050702726
+    - id: 17
+      position: -0.89849549892668101
+    - id: 18
+      position: 0.73199108828642123
+    - id: 19
+      position: -0.44924774946334045
+    - id: 20
+      position: 0.031415926535897934
+    - id: 21
+      position: -0.031415926535897934
+    - id: 22
+      position: 0
+- time: 200
+  delay: 50
+  repeat: 1
+  name: 3
+  selected: true
+  dxl:
+    - id: 0
+      position: 1.5739379194484877
+    - id: 1
+      position: -1.5739379194484877
+    - id: 2
+      position: -1.4985396957623323
+    - id: 3
+      position: 1.4985396957623323
+    - id: 4
+      position: -3.0724776152108131
+    - id: 5
+      position: 3.0724776152108131
+    - id: 10
+      position: 0.17592918860102838
+    - id: 11
+      position: -0.17592918860102838
+    - id: 12
+      position: -6.9388939039072284e-18
+    - id: 13
+      position: 6.9388939039072284e-18
+    - id: 14
+      position: -0.50893800988154636
+    - id: 15
+      position: 0.41783182292744253
+    - id: 16
+      position: 0.89849549892668101
+    - id: 17
+      position: -0.89849549892668101
+    - id: 18
+      position: 0.44924774946334045
+    - id: 19
+      position: -0.44924774946334045
+    - id: 20
+      position: 0.031415926535897934
+    - id: 21
+      position: -0.031415926535897934
+    - id: 22
+      position: 0

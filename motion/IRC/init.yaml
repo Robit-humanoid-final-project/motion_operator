@@ -1,0 +1,69 @@
+- name: ""
+- motor id:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+- type: motion
+- time: 700
+  delay: 100
+  repeat: 1
+  name: init
+  selected: true
+  dxl:
+    - id: 0
+      position: 0
+    - id: 1
+      position: 0
+    - id: 2
+      position: 0.11309733552923253
+    - id: 3
+      position: -0.11309733552923253
+    - id: 4
+      position: 0
+    - id: 5
+      position: 0
+    - id: 6
+      position: 0
+    - id: 10
+      position: 0.17907078125461817
+    - id: 11
+      position: -0.17907078125461817
+    - id: 12
+      position: 0
+    - id: 13
+      position: 0
+    - id: 14
+      position: -0.39584067435231424
+    - id: 15
+      position: 0.39584067435231424
+    - id: 16
+      position: 0.79168134870462747
+    - id: 17
+      position: -0.79168134870462747
+    - id: 18
+      position: 0.40526545231308364
+    - id: 19
+      position: -0.40526545231308364
+    - id: 20
+      position: 0.12252211349000192
+    - id: 21
+      position: -0.14137166941154067
+    - id: 22
+      position: 0

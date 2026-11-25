@@ -1,0 +1,110 @@
+- name: ""
+- motor id:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+- type: motion
+- time: 300
+  delay: 100
+  repeat: 1
+  name: init
+  selected: true
+  dxl:
+    - id: 0
+      position: -2.422167935917741
+    - id: 1
+      position: 0
+    - id: 2
+      position: 1.1058406140636077
+    - id: 3
+      position: 0
+    - id: 4
+      position: 0
+    - id: 5
+      position: 0
+    - id: 10
+      position: 0.11309733552923251
+    - id: 11
+      position: -0.11309733552923251
+    - id: 12
+      position: 0
+    - id: 13
+      position: 0
+    - id: 14
+      position: -0.015707963267948787
+    - id: 15
+      position: 0.015707963267948787
+    - id: 16
+      position: 0.012566370614359106
+    - id: 17
+      position: -0.012566370614359106
+    - id: 18
+      position: 0.043982297150256922
+    - id: 19
+      position: -0.043982297150256922
+    - id: 20
+      position: 0.11309733552923251
+    - id: 21
+      position: -0.11309733552923251
+    - id: 22
+      position: 0
+- time: 1000
+  delay: 600
+  repeat: 1
+  name: 2
+  selected: false
+  dxl:
+    - id: 0
+      position: 0
+    - id: 1
+      position: 0
+    - id: 2
+      position: 0
+    - id: 3
+      position: 0
+    - id: 4
+      position: 0
+    - id: 5
+      position: 0
+    - id: 10
+      position: 0.11309733552923251
+    - id: 11
+      position: -0.11309733552923251
+    - id: 12
+      position: 0
+    - id: 13
+      position: 0
+    - id: 14
+      position: -0.5057964172279571
+    - id: 15
+      position: 0.5057964172279571
+    - id: 16
+      position: 0.70999993971129305
+    - id: 17
+      position: -0.70999993971129305
+    - id: 18
+      position: 0.35499996985564664
+    - id: 19
+      position: -0.35499996985564664
+    - id: 20
+      position: 0.11309733552923251
+    - id: 21
+      position: -0.11309733552923251
+    - id: 22
+      position: 0
