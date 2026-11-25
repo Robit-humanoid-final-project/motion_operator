@@ -45,6 +45,8 @@ void MotionOperatorNode::declare_parameters()
   declare_parameter<std::string>(
     "motions.Technical_Challenge.High_kick.highkick_motion", "");
 
+  declare_parameter<std::string>("motions.ROBIT_final_project.PowerFullyKick", "");
+
   declare_parameter<std::string>("motions.EVENT.EVENT_motion1Addr", "");
   declare_parameter<std::string>("motions.EVENT.EVENT_motion2Addr", "");
   declare_parameter<std::string>("motions.EVENT.EVENT_motion3Addr", "");
@@ -116,6 +118,10 @@ void MotionOperatorNode::load_parameters()
   motion_paths_.highkick_motionAddr =
     get_parameter(
     "motions.Technical_Challenge.High_kick.highkick_motion").as_string();
+
+  motion_paths_.PowerFullyKick =
+    get_parameter(
+    "motions.ROBIT_final_project.PowerFullyKick").as_string();
 
   motion_paths_.EVENT_motion1Addr =
     get_parameter("motions.EVENT.EVENT_motion1Addr").as_string();
