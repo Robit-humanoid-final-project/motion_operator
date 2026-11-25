@@ -43,6 +43,10 @@
         High_kick:
           highkick_motion: "motion/Technical_Challenge/HighKick/high_kick_17.yaml"
 
+      ROBIT_final_project:
+        PowerFullyKick: " "
+
+
       EVENT:
         EVENT_motion1Addr: ""
         EVENT_motion2Addr: ""
