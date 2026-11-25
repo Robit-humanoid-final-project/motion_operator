@@ -56,6 +56,9 @@ struct MotionPaths
   std::string pourkour_motion3Addr;
   std::string highkick_motionAddr;
 
+  // ROBIT_final_project
+  std::string PowerFullyKick;
+
   // EVENT
   std::string EVENT_motion1Addr;
   std::string EVENT_motion2Addr;
