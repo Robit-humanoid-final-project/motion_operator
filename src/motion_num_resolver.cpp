@@ -8,6 +8,7 @@ namespace motion_operator
         switch (motion_num)
         {
         // ---- RCKO ----
+        /*
         case 0:
             return resolve_package_path(motion_paths_.KickRAddr);
         case 1:
@@ -20,6 +21,7 @@ namespace motion_operator
             return resolve_package_path(motion_paths_.RightRiseAddr);
         case 5:
             return resolve_package_path(motion_paths_.LeftRiseAddr);
+        */
 
         // ---- Technical Challenge ----
         case 50:
@@ -42,6 +44,10 @@ namespace motion_operator
             return resolve_package_path(motion_paths_.IrcManiPlaceAddr);
         case 76:
             return resolve_package_path(motion_paths_.IrcManiPlaceBackAddr);
+
+        // ---- ROBIT_final_project
+        case 1:
+            return resolve_package_path(motion_paths_.PowerFullyKick);
 
         // ---- EVENT ----
         case 101:
