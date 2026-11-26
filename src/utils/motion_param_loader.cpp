@@ -55,8 +55,10 @@ void MotionOperatorNode::declare_parameters()
 
 void MotionOperatorNode::load_parameters()
 {
+  // /motion_operator 토픽 이름을 저장하는 변수
   motion_request_topic_ =
     get_parameter("topics.motion_request").as_string();
+  // /motino_end 토픽 이름을 저장하는 변수
   motion_end_topic_ =
     get_parameter("topics.motion_end").as_string();
   motor_status_topic_ =

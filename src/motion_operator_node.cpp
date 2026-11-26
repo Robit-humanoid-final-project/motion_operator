@@ -19,6 +19,7 @@ MotionOperatorNode::on_configure(const rclcpp_lifecycle::State &)
 
   load_parameters();
 
+  // 모션 번호 구독
   motion_request_sub_ =
     create_subscription<humanoid_interfaces::msg::MotionOperator>(
       motion_request_topic_,
@@ -35,6 +36,7 @@ MotionOperatorNode::on_configure(const rclcpp_lifecycle::State &)
     create_publisher<dynamixel_hardware_msgs::msg::DynamixelControlMsgs>(
       dynamixel_control_topic_, 10);
 
+  // 모션 종료 알림 발행, 모션 종료되면 1 아니면 0
   motion_end_pub_ =
     create_publisher<humanoid_interfaces::msg::MotionOperator>(
       motion_end_topic_, 10);

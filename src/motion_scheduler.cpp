@@ -149,6 +149,7 @@ void MotionOperatorNode::reset_motion_state()
   motion_sequence_.clear();
 }
 
+// 모션 종료 발행 함수, 모션 종료 시 motion_end를 1로 변경
 void MotionOperatorNode::publish_motion_end(int motion_num)
 {
   if (motion_end_pub_ == nullptr || !motion_end_pub_->is_activated()) {
